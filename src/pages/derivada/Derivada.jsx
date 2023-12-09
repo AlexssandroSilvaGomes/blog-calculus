@@ -39,13 +39,7 @@ function Derivada() {
           </div>
 
           <div className="derivadas-video">
-            <iframe
-              width="640"
-              height="360"
-              src={'https://www.youtube.com/embed/cWBEMN75IMc&list=PLEfwqyY2ox86LhxKybOY3_IG-7R5herLC&index=17'}
-              title="Título do Vídeo"
-              allowFullScreen
-            ></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cWBEMN75IMc?si=Zkb4p2_JAJ0p1T3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
 

@@ -61,13 +61,7 @@ function Integral() {
           </div>
 
           <div className="video-indefinida">
-            <iframe
-              width="640"
-              height="360"
-              src={'https://www.youtube.com/embed/M_xCxHcBdBo&list=PLEfwqyY2ox86LhxKybOY3_IG-7R5herLC&index=45'}
-              title="Título do Vídeo"
-              allowFullScreen
-            ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/M_xCxHcBdBo?si=KJQsHo4WvtWbXfMK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
 
@@ -83,13 +77,7 @@ function Integral() {
           </div>
 
           <div className="video-definida">
-            <iframe
-              width="640"
-              height="360"
-              src={'https://www.youtube.com/embed/CWWbjoOjYOg&list=PLEfwqyY2ox86LhxKybOY3_IG-7R5herLC&index=48'}
-              title="Título do Vídeo"
-              allowFullScreen
-            ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CWWbjoOjYOg?si=CEfvcX44AWCOArXr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
