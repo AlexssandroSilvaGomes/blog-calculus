@@ -1,0 +1,57 @@
+header {
+    grid-area: headerCont;
+    display: flex;
+    width: 100%;
+    padding: 0px 25px;
+    background-color: #222;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a, .drop-p {
+    display: grid;
+    align-self: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+a:hover, .drop-p:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.dropdown-content {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #333;
+    display: none;
+    width: 12vw;
+    padding: 5px;
+  }
+  
+.dropdown-content li {
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #222;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
