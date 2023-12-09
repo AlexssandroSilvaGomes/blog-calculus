@@ -9,6 +9,7 @@ import derivada1 from './img/derivada1.png'
 import derivada2 from './img/derivada3.png'
 import derivada3 from './img/exercicio-resolvido-derivada-quociente.png'
 
+
 function Derivada() {
   return (
     <div className="container">
